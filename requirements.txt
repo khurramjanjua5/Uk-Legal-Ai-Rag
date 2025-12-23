@@ -1,0 +1,38 @@
+# UK Legal AI Assistant - Requirements
+# COM748 Masters Research Project
+
+# Core Dependencies
+streamlit==1.28.0
+sentence-transformers==2.2.2
+faiss-cpu==1.7.4
+torch==2.1.0
+transformers==4.35.0
+
+# PDF Processing
+pdfplumber==0.10.3
+PyPDF2==3.0.1
+
+# NLP & Evaluation
+rouge-score==0.1.2
+nltk==3.8.1
+scikit-learn==1.3.2
+
+# Data Processing
+numpy==1.24.3
+pandas==2.1.3
+
+# API & Backend
+requests==2.31.0
+python-dotenv==1.0.0
+
+# Utilities
+tqdm==4.66.1
+python-dateutil==2.8.2
+
+# Optional: For LLM Integration
+# langchain==0.0.335
+# openai==1.3.0
+
+# Optional: For deployment
+# gunicorn==21.2.0
+# uvicorn==0.24.0
